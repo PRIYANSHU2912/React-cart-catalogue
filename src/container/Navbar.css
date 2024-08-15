@@ -1,0 +1,53 @@
+.imgdiv{
+    max-height: 9rem;
+    max-width: 9rem;
+}
+.imgdiv img{
+    width: 100%;
+    height: 100%;
+}
+.icon{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.iconimg{
+    font-size: 1.2rem;
+    position: relative;
+}
+.spantext{
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.09rem 0.27rem;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: 1.72rem;
+    right: 17.2rem;
+    animation: bounce 2s ease infinite;
+}
+
+
+  @keyframes bounce {
+      70% { transform:translateY(0%); }
+      80% { transform:translateY(-15%); }
+      90% { transform:translateY(0%); }
+      95% { transform:translateY(-7%); }
+      97% { transform:translateY(0%); }
+      99% { transform:translateY(-3%); }
+      100% { transform:translateY(0); }
+  }
+  
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 1.5rem 0;
+    background-color: black;
+}
+.navbarsecond{
+    display: flex;
+    place-items: center;
+    gap: 1.2rem;
+}

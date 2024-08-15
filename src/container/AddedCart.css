@@ -1,0 +1,49 @@
+.cartimg{
+    max-width: 7rem;
+    max-height: 10rem;
+}
+.cartimg img{
+    width: 100%;
+    height: 100%;
+}
+.addedcart{
+    max-height: 25rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    border-bottom: 2px solid black;
+    padding-bottom: 1.2rem;
+    margin-top: 2rem;
+}
+.cartcontent{
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+.carttitle{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.cartdesc{
+    color: gray;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.cartfoot{
+    display: flex;
+    gap: 15rem;
+}
+.cartprice{
+    color: green;
+    font-weight: 700;
+}
+.del{
+    border-radius: 50%;
+    background-color: rgba(222, 84, 84, 0.277);
+    padding: 0 0.3rem;
+    padding-top: 0.2rem;
+    font-size: 1.1rem;
+    color: rgb(158, 20, 20);
+}
